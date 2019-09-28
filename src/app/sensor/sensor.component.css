@@ -1,5 +1,5 @@
 .sensor {
-    width: calc(50% - 60px - 50px);
+    width: calc(35%);
     min-width: 280px;
     height: 250px;
     padding: 15px 25px;
@@ -30,6 +30,46 @@
 .warning {
     background: red;
 }
-.ml-50 {
+.device-margin {
     margin-left: 50px;
+}
+
+
+@media only screen and (min-width: 900px) {
+    .device-margin {
+        margin-left: 50px;
+    }
+    .sensor {
+        width: 42%;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 900px) {
+    .device-margin {
+        margin-left: 25px;
+    }
+
+    .sensor-title {
+        font-size: 2em;
+    }
+
+    .sensor {
+        height: 150px;
+    }
+
+    .sensor-data {
+        height: 100px;
+    }
+}
+
+/* Phone */
+@media only screen and (max-width: 767px) {
+    .sensor {
+        width: calc(86%);
+    }
+    .device-margin {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
 }
