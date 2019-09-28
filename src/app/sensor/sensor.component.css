@@ -1,0 +1,35 @@
+.sensor {
+    width: calc(50% - 60px - 50px);
+    min-width: 280px;
+    height: 250px;
+    padding: 15px 25px;
+    background: #4a90e2;
+    color: #FFF;
+    float: left;
+    /*margin-right: 50px;*/
+}
+.sensor-title {
+    min-width: 70%;
+    height: 200px;
+    float: left;
+    font-size: 2.5em;
+}
+.sensor-data {
+    min-width: 30%;
+    height: 200px;
+    float: left;
+    text-align: right;
+    font-size: 2em;
+}
+.sensor-unit {
+    height: 50px;
+    float: right;
+    text-align: right;
+    font-size: 2em;
+}
+.warning {
+    background: red;
+}
+.ml-50 {
+    margin-left: 50px;
+}

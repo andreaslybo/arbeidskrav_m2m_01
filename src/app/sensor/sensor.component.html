@@ -1,0 +1,13 @@
+<div class="sensor-container">
+  <div class="sensor warning" [ngClass]="{'warning': temp < 22}">
+      <div class="sensor-title">Temperature</div>
+      <div class="sensor-data">{{ temp | number: '1.2-2'}}</div>
+      <div class="sensor-unit">°C</div>
+  </div>
+
+  <div class="sensor ml-50">
+      <div class="sensor-title">Humidity</div>
+      <div class="sensor-data">{{ humid | number: '1.2-2'}}</div>
+      <div class="sensor-unit">%</div>
+  </div>
+</div>
